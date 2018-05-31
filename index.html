@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>A fantastical adventure</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Fill in the blanks to write your story!</h1>
+      <div>
+        <form id="formOne">
+          <div class="form-group">
+            <h2>Your Name</h2>
+            <input id="person1" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <h2>Your Address</h2>
+            <input id="person2" class="form-control" type="text">
+          </div>
+
+
+          <select class="form-control" id="beverage">
+            <option value="10">A dozen Roses</option>
+            <option value="20">A dozen Tulips</option>
+            <option value="30">A dozen lillies</option>
+            <option value="200">A dozen Orchids</option>
+          </select>
+
+          <div class="radio">
+            <label>
+              <input type="radio" name="flavor" value="chocolate" checked>
+                Vase
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="flavor" value="vanilla">
+              Wrapped in Paper
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="flavor" value="cookiesandcream">
+              Deluxe: with a teddy bear.
+            </label>
+          </div>
+
+          <button type="submit" class="btn">Show me the story!</button>
+        </form>
+      </div>
+
+      <div id="story">
+        <h1>A fantastical adventure</h1>
+        <p>
+One day, <span class="person1"></span> and <span class="person2"></span> were walking through the woods, when suddenly a giant <span class="animal"></span> appeared. "<span class="exclamation"></span>", <span class="person1"></span> cried. The two of them <span class="verb"></span> as quickly possible, and when they were safe, <span class="person1"></span> and <span class="person2"></span> gave each other a giant <span class="noun"></span>.
+</p>
+      </div>
+    </div>
+  </body>
+</html>
